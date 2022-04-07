@@ -167,9 +167,8 @@ header .textos-header{
 
 }
 .cards .cards{
-    background: #061700;
-    display: flex;
-    width: 46%;
+   
+    width: 66%; 
     height: 200px;
     align-items: center;
     justify-content: space-evenly;
@@ -185,3 +184,5 @@ header .textos-header{
     border-radius: 50%;
     display: block;
 }
+
+
