@@ -32,9 +32,7 @@ header {
     height: 600px;
     background: #52c234; 
 background:  linear-gradient(to right, #061700, hsla(107, 50%, 51%, 0.5)), url(../img/healthylifestyle.jpg); 
- /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #061700, hsla(107, 50%, 51%, 0.5)), url(../img/healthylifestyle.jpg); 
-/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 background-size: cover;
 background-attachment: fixed;
 position: relative;
@@ -165,5 +163,17 @@ header .textos-header{
     border-radius: 50%;
     display: block;
 }
-
-
+/* footer */
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor-footer {
+display: flex;
+width: 90%;
+justify-content: space-evenly;
+margin: auto;
+padding-bottom: 50px ;
+}
