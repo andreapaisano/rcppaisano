@@ -130,7 +130,7 @@ header .textos-header{
     width: 100%;
     height: 100%;
     top: 0;
-    background-color: hsla(273, 91%, 27%, 0.7);
+    /* background-color: hsla(273, 91%, 27%, 0.7); */
     transition: transform .5s;
     display: flex;
     justify-content: center;
@@ -176,4 +176,34 @@ width: 90%;
 justify-content: space-evenly;
 margin: auto;
 padding-bottom: 50px ;
+border-bottom: 1px solid #ccc;
+
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #1a6600;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+
+}
+.content-foo p{
+    color: #ccc;
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e979e;
+}
+@media screen and (max-width:9000px) { 
+    header{
+        background-position: center;
+    }
+}.contenedor{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
