@@ -130,7 +130,6 @@ header .textos-header{
     width: 100%;
     height: 100%;
     top: 0;
-    /* background-color: hsla(273, 91%, 27%, 0.7); */
     transition: transform .5s;
     display: flex;
     justify-content: center;
@@ -206,4 +205,8 @@ border-bottom: 1px solid #ccc;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.about-rcp .about-rcp-texto {
+    width: 90%;
+
 }
