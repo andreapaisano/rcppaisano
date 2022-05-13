@@ -33,7 +33,6 @@ header {
     height: 600px;
     background: #52c234; 
     background:  linear-gradient(to right, #061700, hsla(107, 50%, 51%, 0.5)), url(../img/healthylifestyle.jpg); 
-    background: linear-gradient(to right, #061700, hsla(107, 50%, 51%, 0.5)), url(../img/healthylifestyle.jpg); 
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -83,7 +82,7 @@ header .textos-header{
     justify-content: space-evenly;
 }
 .imagen-about-us{
-    width: 15%;
+    width: 50%;
 
 }
 
